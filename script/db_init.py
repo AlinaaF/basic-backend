@@ -7,5 +7,6 @@ with connectionPool.get_resource() as connection:
     cursor.execute("INSERT INTO users VALUES ('Ivan', 'Ivanov', '+79111111111')")
     cursor.execute("INSERT INTO users VALUES ('John', 'Doe', '+449111111111')")
     cursor.execute("INSERT INTO users VALUES ('Johann', 'Schmidt', '+499111111111')")
+    cursor.execute("INSERT INTO users VALUES ('Alina', 'Fayzrakhmanova', '+79992121155')")
     connection.commit()
     cursor.close()
